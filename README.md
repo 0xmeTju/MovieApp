@@ -21,7 +21,7 @@ The project uses **Hilt** for dependency injection. Hilt simplifies dependency i
 ## Handling the API Key
 The app retrieves data from the OMDB API. The API key is sensitive and should not be hardcoded directly so you will need to insert your own key.
 
-### Storing API Key in `gradle.properties`
+### Storing API Key
 The API Key is stored in `gradle.properties`, before building the project, you need to enter you API Key there.
 
 #### Add the API Key to `gradle.properties`
